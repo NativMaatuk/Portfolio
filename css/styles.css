@@ -389,7 +389,7 @@
     color: white;
     margin-left:auto;
     margin-right:auto;
-    width:80%;
+    width:65%;
     border-collapse:collapse;
     border-radius:16px;
   }
@@ -408,11 +408,13 @@
   .body-box-info{
    color: #333;
    padding-bottom: 2%;
-   font-size: 20px;
+   font-size: 26px;
    text-align: left;
-   width:80%;
+   width:65%;
    margin-left:auto;
    margin-right:auto;
+   padding-top: 10px;
+   padding-bottom: 20px;
   }
   /*
   */
@@ -460,6 +462,9 @@
           margin: 30px auto 0;
           box-shadow: 0px 0px 4px rgba(0,0,0,0.7);
         }
+    /*
+    for mobile
+    */
     @media only screen
       and (min-width: 375px) 
       and (max-width: 898px) {
@@ -468,9 +473,21 @@
       }
   
       .skills-section {
-          height:165vh;
+          height:140vh;
        }
       #content {
-          height:140vh;
+          height:100vh;
+       }
+       .table-skills {
+        width:90%;
+      }
+      .body-box-info{
+        font-size: 18px;
+        text-align: left;
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
        }
   }
